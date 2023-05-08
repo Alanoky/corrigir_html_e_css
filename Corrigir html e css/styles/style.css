@@ -1,0 +1,210 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            height: 70px;
+            padding: 0 20px;
+            align-items: center;
+           
+        }
+
+        header h1 {
+            margin: 0;
+            flex: 1;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: #fff;
+        }
+
+        .hero {
+            background-image: url(../img/srbarriga_02.webp);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hero-text {
+            text-align: center
+        }
+
+        .hero-text h2 {
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero-text p {   
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 24px;
+            margin-bottom: 40px;
+        }
+
+        .btn-hero {
+            background-color: #ffffffc7;
+            color: #333;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn-hero:hover {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .about {
+            background-image: url(../img/596739.webp);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 50px 20px;
+            background-color: #f2f2f2;
+            justify-content: center;
+        }
+
+        .about h2 {
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .about p {
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .about ul {
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 4;
+        }
+
+        .about li {
+            background-color: #ffffffc7;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-bottom: 10px;
+            display: inline;
+        }
+
+        .pricing {
+            background-image: url(../img/chaves\ madruga\ real.jpg);
+            
+            padding: 50px 20px;
+            background-color: #ffffff;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing h2 {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .pricing ul {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin: 0;
+            padding: 0;
+            display: grid;
+            grid-template-columns: auto;
+            
+        }
+
+        .pricing li {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 24px;
+            margin-bottom: 20px;
+            display: inline;
+        }
+
+        .pricing p {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .btn-pricing {
+            background-color: #333;
+            color: #fff;
+            font-size: 24px;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            align-self: center;
+            
+        }
+
+        .btn-pricing:hover {
+            background-color: #fff;
+            color: #333;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+    
